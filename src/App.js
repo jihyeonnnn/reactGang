@@ -1,23 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import Notice from'./component/Notice';
+import noticeDb from './data/notice.json';
+//notieceDb는 컴포넌트로 들어가는게 아니고 app.js로 받아야됨.
 
 function App() {
+  const noticejs = noticeDb;
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Notice title={noticejs.title} 
+              cls = {noticejs.cls}
+              contents={noticejs.contents}>
+      </Notice>
     </div>
   );
 }

@@ -1,0 +1,18 @@
+{
+    "title" : "공지사항",
+    "cls" : ["bg-dark ", "text-red"],
+    "contents" : [
+        {
+        "subject" : "배송지연안내",
+        "contents" : "안녕하세요. 배송이늦어요"
+        },
+        {
+        "subject" : "ㅎㅇ",
+        "contents" : "ㅎㅇㅇㅇㅇㅇㅇ"
+        },
+        {
+        "subject" : "연습문제",
+        "contents" : "연습문제 내용"
+        }
+    ]
+}
