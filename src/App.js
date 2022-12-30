@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <Hd bgColor='bg-white'></Hd>
       <div id="portfolio">
-        <h2>나의 작품</h2>
+        <h2 className='mt-5 pt-5 text-center'>나의 작품</h2>
         <Work contentId="react" title="나의 피땀"></Work>
         <Work contentId="ec" title="나의 피땀"></Work>
       </div>
