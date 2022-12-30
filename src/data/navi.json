@@ -1,0 +1,35 @@
+{
+    "naviDB" : [
+                    {
+                    "naviTitle" : "About",
+                    "naviLink" : "#about"
+                    },
+                    {
+                    "naviTitle" : "작업",
+                    "naviLink" : "#portfolio"
+                    },
+                    {
+                    "naviTitle" : "면접제안",
+                    "naviLink" : "#contact"
+                    },
+                    {
+                    "naviTitle" : "사전인터뷰",
+                    "naviLink" : "#preInterview"
+                    }],
+    "work" : [
+                    {
+                        "subject" : "리액트광고페이지",
+                        "tool" : [
+                            "adobeXD","illust","vscode"
+                        ],
+                        "siteurl" : "http://www.naver.com" 
+                    },
+                    {
+                        "subject" : "이커머스",
+                        "tool" : [
+                            "figma","photoshop","vscode","firecut"
+                        ],
+                        "siteurl" : "http://www.11st.co.kr" 
+                    }
+    ]
+}

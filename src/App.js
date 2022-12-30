@@ -1,16 +1,17 @@
-import Notice from'./component/Notice';
-import noticeDb from './data/notice.json';
-//notieceDb는 컴포넌트로 들어가는게 아니고 app.js로 받아야됨.
 
+//notieceDb는 컴포넌트로 들어가는게 아니고 app.js로 받아야됨.
+import Hd from './component/Header';
+import Work from './component/work';
 function App() {
-  const noticejs = noticeDb;
 
   return (
     <div className="App">
-      <Notice title={noticejs.title} 
-              cls = {noticejs.cls}
-              contents={noticejs.contents}>
-      </Notice>
+      <Hd bgColor='bg-white'></Hd>
+      <div id="portfolio">
+        <h2>나의 작품</h2>
+        <Work contentId="react" title="나의 피땀"></Work>
+        <Work contentId="ec" title="나의 피땀"></Work>
+      </div>
     </div>
   );
 }

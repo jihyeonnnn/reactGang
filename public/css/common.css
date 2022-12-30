@@ -1,0 +1,83 @@
+:root{
+    --sjh-active : #7531f8;
+}
+
+body{
+    font-family: 'Montserrat','Jua', sans-serif; 
+    /*순위를 영문폰트를 먼저 넣고 그다음이 한글폰트 */
+    font-weight: 300;
+    color: #19191919;
+}
+a{
+    text-decoration: none;
+    color: #191919;
+}
+ul,dl,ol {
+    list-style:none;
+}
+a:hover{
+    color: var(--sjh-active) !important;
+}
+/* 공통클래스 */
+.activeColor{
+    color:#7531f8 !important;
+}
+.colorDark{
+    color:#191919 !important;
+}
+.bgActive {
+    background-color: var(--sjh-active) !important;
+}
+
+.section{
+    padding: 8rem;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.colorLight{
+    color:#ccc !important;
+}
+/* 영문 한글 폰트 공통 */
+.fw100{
+    font-weight: 100 !important;
+}
+.fw300{
+    font-weight: 300 !important;
+}
+.fw600{
+    font-weight: 600 !important;
+}
+.fw600 *{
+    font-weight: 600 !important;
+}
+.font12{
+    font-size: 12px !important;
+}
+.font13{
+    font-size: 13px !important;
+}
+.font14{
+    font-size: 14px !important;
+}
+.font15{
+    font-size: 15px !important;
+}
+.font16{
+    font-size: 16px !important;
+}
+.font18{
+    font-size: 18px !important;
+}
+.font20{
+    font-size: 20px !important;
+}
+.font20 *{
+    font-size: 20px !important;
+}
+.font50{
+    font-size: 50px !important;
+}
+.font50 *{
+    font-size: 50px !important;
+}
